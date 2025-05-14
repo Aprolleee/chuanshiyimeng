@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+
+<head>
+    <meta charset="UTF-8">
+    <title>传世游戏公告</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            background: #231e27;
+            width: 520px;
+            height: 260px;
+            overflow: hidden;
+            font-family: "Microsoft YaHei", SimSun, sans-serif;
+            color: #D4D4D4;
+        }
+        
+        #main {
+            padding: 10px;
+            width: 100%;
+            height: 100%;
+        }
+        
+        .title_news {
+            font-size: 18px;
+            color: #FFD700;
+            padding: 5px 0;
+            border-bottom: 2px solid #8B0000;
+            margin-bottom: 8px;
+        }
+        
+        #list ul {
+            list-style: none;
+            height: 260px;
+            overflow-y: auto;
+        }
+        
+        #list li {
+            margin: 3px 0;
+            padding: 2px 0;
+        }
+        
+        #list a {
+            color: #FFAD80;
+            text-decoration: none;
+            font-size: 12px;
+            line-height: 1.4;
+            display: block;
+            transition: color 0.3s;
+        }
+        
+        #list a:hover {
+            color: #FF4500;
+        }
+        
+        #marqueediv1 {
+            position: absolute;
+            bottom: 2px;
+            width: 520px;
+            color: #00FF00;
+            font-size: 12px;
+            white-space: nowrap;
+            overflow: hidden;
+        }
+        
+        marquee {
+            color: #98FB98;
+            padding-top: 3px;
+        }
+    </style>
+</head>
+
+<body>
+    <div id="main">
+        <div class="title_news">▶ 游戏玩法公告</div>
+        <div id="list">
+            <ul>
+
+                <li><a href="#">【焦点】本服为复古、微变、超变多世界合一，所有装备游戏内获取，不同世界多样装备。</a></li>
+                <li><a href="#">【焦点】独家特色版本，供传世爱好者学习研究，单区最佳体验人数为5-10人。</a></li>
+                <li><a href="#">【焦点】本服还提供各种特色区，欢迎广大玩家加群交流，QQ群：715093659。</a></li>
+                <li><a href="#">【焦点】服务器长久稳定开放，纯公益不提供任何充值，不出售任何与游戏相关物品道具。</a></li>
+                <li><a href="#">【焦点】焰火屠魔，魔戒现身，铁血攻城等各种活动均为原始模式，力求原汁原味的体验。</a></li>
+                <li><a href="#">【焦点】不同世界不同升级渠道，每日、回收、活动均可获得大量经验，还有各种特色活动。</a></li>
+
+                <li><a href="#">【焦点】本服为非快餐、非变态、非充值模式，快餐玩家及充值玩家不建议参与游戏。</a></li>
+                <li><a href="#">【焦点】采用彩虹绿色引擎及绿色登录器，无木马劫持，不破坏玩家电脑，对客户端0修改。</a></li>
+            </ul>
+        </div>
+        <div id="marqueediv1">
+            <marquee scrollamount="3" onmouseover="this.stop()" onmouseout="this.start()">
+                目前所有服务器运行正常，欢迎广大玩家参与体验游戏。
+            </marquee>
+        </div>
+    </div>
+</body>
+
+</html>
